@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <title>Clima</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="scripts.js"></script>
+</head>
+
+<body>
+
+  <div class="bigger-container">
+
+    <input placeholder="Digite o nome da cidade" />
+    <button onclick="getCityName()"> <img id="magnifying-glass" src="https://www.svgrepo.com/show/488200/find.svg"
+        alt="Lupa" /></button>
+
+    <div class="medium-container">
+
+      <h1>Tempo em Rio de Janeiro</h1>
+
+      <p id="temperature">28°C</p>
+
+      <div class="container-right">
+
+        <img id="up-arrow" src="assets/up-arrow.jpg" alt="Temperatura máxima" />
+        <p id="temp-max">30°C</p>
+
+        <img id="down-arrow" src="assets/down-arrow.png" alt="Temperatura mínima" />
+        <p id="temp-min">20°C</p>
+
+      </div>
+
+      <div class="smaller-container">
+        <img id="weather-image" src="https://openweathermap.org/img/wn/04n.png" alt="icone-do-tempo" />
+        <p id="description">Nuvens Dispersas</p>
+      </div>
+
+      <p id="moisture"> Umidade: 70% </p>
+
+    </div>
+
+  </div>
+
+</body>
+
+</html>
